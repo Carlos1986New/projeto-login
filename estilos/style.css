@@ -72,6 +72,7 @@ form label {
     display: none;
 }
 div.campo > span {
+    position: relative;
     color: white;
     font-size: 2em;
     width: 40px;
@@ -79,6 +80,7 @@ div.campo > span {
     transform: translateY(-4px) translateX(-3px);
 }
 div.campo > input {
+    position: relative;
     background-color: #a98560;
     font-size: 1em;
     width: calc(100% - 44px);
@@ -117,7 +119,7 @@ form > a.botao {
     color: white;
     border: 1px solid #3f6022;
     border-radius: 5px;
-    text-decoration: none;
+    text-decoration: none;  
     padding-top: 5px;
     margin-top: 5px;
 }
